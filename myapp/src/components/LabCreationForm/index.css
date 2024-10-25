@@ -1,0 +1,48 @@
+.form-control:focus, .form-select:valid:focus,.form-check-input:valid:focus{
+    box-shadow: none;
+    border-color: black;
+}
+.lab-creation-container{
+    width:100%;
+    min-height: 100vh;
+}
+.lab-creation-container .form-control {
+    width: 100%; /* Ensure inputs take full width */
+}
+
+.lab-creation-container .row {
+    margin-left: 0; /* Remove any unintended left margin */
+    margin-right: 0; /* Remove any unintended right margin */
+}
+.lab-creation-title{
+    color: #1b1b1b;
+    font-family: 'Montserrat';
+    font-weight: 600;
+  }
+.lab-general-head{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
+.lab-form-container{
+    font-family: 'Montserrat';
+}
+
+.button-50 {
+    width: 140px;
+    height:40px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.create-button-bg{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+select option:hover {
+    background-color: black; /* Background color of each option */
+    color: white; /* Text color */
+  }
